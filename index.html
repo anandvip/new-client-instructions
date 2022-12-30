@@ -1,65 +1,86 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Grid Layout</title>
-  <meta name="viewport" content="width=device-width; initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Poppins', sans-serif;
-    }
-
-    ol {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      grid-gap: 16px;
-    }
-
-    li {
-      border: 1px solid black;
-      padding: 8px;
-      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-
-    h3 {
-      margin: 0;
-      font-size: 14px;
-      font-weight: 700;
-    }
-
-    footer {
-      text-align: center;
-      font-size: 12px;
-      color: gray;
-      margin-top: 16px;
-    }
-    @media (max-width: 768px) {
-      ol {
-        grid-template-columns: 1fr;
-        grid-gap: 20px;
+  <head>
+    <title>Grid Layout</title>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: 'Poppins', sans-serif;
       }
-    }
-  </style>
-</head>
-<body>
-  <ol>
-    <li>
-      <h3>Objective 1</h3>
-      As the boss of a successful design agency, it is important to me that my agent is able to establish a strong, positive relationship with the client. This will involve building rapport and trust through effective communication, listening skills, and a professional demeanor.
-    </li>
-    <li>
-      <h3>Objective 2</h3>
-      It is also important that my agent fully understands the client's needs and goals for the project. This may involve asking clarifying questions, gathering information about the target audience, and identifying any potential challenges or constraints.
-    </li>
-    <li>
-      <h3>Objective 3</h3>
-      I would like my agent to be able to clearly communicate the agency's capabilities and the value that we can offer to the client. This may involve presenting relevant case studies or examples of past work, and highlighting the unique strengths of our team and approach.
-    </li>
-    <li>
-      <h3>Objective 4</h3>
-      Finally, it is important that my agent is able to negotiate terms and secure the project in a way that is mutually beneficial to both the agency and the client. This may involve discussing budget, timeline, and other logistical considerations, and coming to an agreement that meets both parties' needs.
-    </li>
-  </ol>
-  <footer>As the boss of a successful design agency, it is important to me that my agent is able to achieve these objectives in order to ensure the best possible outcome for the project and the agency as a whole.</footer>
-</body>
+
+      ol {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 16px;
+      }
+
+      li {
+        border: 1px solid black;
+        padding: 8px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      }
+
+      h3 {
+        margin: 0;
+        font-size: 14px;
+        font-weight: 700;
+      }
+
+      footer {
+        text-align: center;
+        font-size: 12px;
+        color: gray;
+        margin-top: 16px;
+      }
+      @media (max-width: 768px) {
+        ol {
+          grid-template-columns: 1fr;
+          grid-gap: 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Objectives of an agent of the successful agency</h1>
+    <ol>
+      <li>
+        <h3>Objective 1</h3>
+        As the boss of a successful design agency, it is important to me that my
+        agent is able to establish a strong, positive relationship with the
+        client. This will involve building rapport and trust through effective
+        communication, listening skills, and a professional demeanor.
+      </li>
+      <li>
+        <h3>Objective 2</h3>
+        It is also important that my agent fully understands the client's needs
+        and goals for the project. This may involve asking clarifying questions,
+        gathering information about the target audience, and identifying any
+        potential challenges or constraints.
+      </li>
+      <li>
+        <h3>Objective 3</h3>
+        I would like my agent to be able to clearly communicate the agency's
+        capabilities and the value that we can offer to the client. This may
+        involve presenting relevant case studies or examples of past work, and
+        highlighting the unique strengths of our team and approach.
+      </li>
+      <li>
+        <h3>Objective 4</h3>
+        Finally, it is important that my agent is able to negotiate terms and
+        secure the project in a way that is mutually beneficial to both the
+        agency and the client. This may involve discussing budget, timeline, and
+        other logistical considerations, and coming to an agreement that meets
+        both parties' needs.
+      </li>
+    </ol>
+    <footer>
+      As a successful design agency , it is important to me that my agent is
+      able to achieve these objectives in order to ensure the best possible
+      outcome for the project and the agency as a whole.
+    </footer>
+  </body>
 </html>
